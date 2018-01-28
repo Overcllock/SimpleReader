@@ -1,0 +1,23 @@
+﻿<Window x:Class="SimpleReader.Startup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleReader"
+        mc:Ignorable="d"
+        Title="Startup" Height="400" Width="640" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" Foreground="{x:Null}" Background="{x:Null}" AllowsTransparency="True">
+    <Grid x:Name="MainGrid" Opacity="0">
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/Hello.png"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="Разработал: Зуев В.С, гр. 15ВП1" HorizontalAlignment="Left" Margin="372,363,0,0" VerticalAlignment="Top" Width="241" Height="27" Background="{x:Null}">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF359AFF" Offset="0.803"/>
+                    <GradientStop Color="#FF94D3FF"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+
+    </Grid>
+</Window>

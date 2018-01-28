@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleReader.App" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleReader.BookAddingWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CBBEAAQAgAAQAAAAAAAAAABAAACQAAAAAAACgAAiQAA=</HashCode>
+      <FileName>BookAddingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleReader.ConnectivityChecker">
+    <Position X="10.25" Y="0.75" Width="1.75" />
+    <NestedTypes>
+      <Enum Name="SimpleReader.ConnectivityChecker.ConnectionStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ConnectivityChecker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ConnectivityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleReader.EditWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBBEAAQAgAAQAAAAAAAAAABAAACQAAAAAAACgAAiQAA=</HashCode>
+      <FileName>EditWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleReader.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UIAAhAAGAAASgAAAAAAkACAQhAGBQBAIIkQAAICoUAQ=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.194" />
+  </Class>
+  <Class Name="SimpleReader.Settings">
+    <Position X="8.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQAAAAAAAAAAAAKAAAAAAEAAAAIACAAAAAIo=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleReader.SettingsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgAAQAAAAAAAAAAAAAACAAAAAAAAAgAAAQAA=</HashCode>
+      <FileName>SettingsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleReader.Startup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Startup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleReader.Properties.Resources" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIQAAEIBAAAAAAGAAABMAAAAQMAAAAAgACCAiAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleReader.Book">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SimpleReader.Book.ResourceType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Book.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAiAAAgAggACEgAIAAAQgAAACAgAgAQAAQAAABIA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Application" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Threading.DispatcherObject" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Runtime.Serialization.Json.DataContractJsonSerializer" Collapsed="true">
+    <Position X="9.25" Y="6.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
